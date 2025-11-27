@@ -1,0 +1,70 @@
+@font-face {
+    font-family: 'AvenirBlack'; /* Nombre que vas a usar */
+    src: url('../../tipografia/Avenir-Black.ttf') format('truetype'); /* Ruta al archivo */
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: AvenirBook;
+    src: url(../../tipografia/Avenir-Book.ttf) format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+h1{
+    font-family: 'AvenirBlack', Arial, sans-serif;
+    font-size: 3rem;
+    font-weight: 100;
+}
+body{
+    text-align: center;
+    margin:0;
+    font-family: Arial, sans-serif;
+    margin-bottom: 100px;
+}
+p{
+    font-family: 'AvenirBook', Arial, sans-serif;
+}
+.button{
+    background-color: #212121;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    width: 130px;
+    border-radius: 10px;
+    font-size: 1rem;
+    cursor: pointer;
+    transition: 0.35s;
+    font-family: 'AvenirBook', Arial, sans-serif;
+}
+button:hover{
+    background-color: #424242;
+}
+.contenido{
+    margin-bottom: 50px;
+}
+.imagenes{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 20px;
+    justify-items: center;
+}
+.all{
+    margin-left: 200px;
+    margin-right: 200px;
+}
+.menu{
+    display: flex;
+    justify-content: space-between;
+    align-items: start;
+    padding: 50px;
+}
+.menu button{
+    border: none;
+    padding: 20px 30px;
+    border-radius: 5px;
+    background-color: #212121;
+    color: white;
+    cursor: pointer;
+    font-family: 'AvenirBook', Arial, sans-serif;
+    
+}
