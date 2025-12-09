@@ -24,16 +24,43 @@ button.button{
 button.button:hover{
     background-color: #424242;
 }
-
-main{
+.all{
     display: flex;
+    justify-content: space-between;
+    margin-bottom: 20px;
+    align-items: center;
 }
-.titulo, .contingut{
-    display: flex ;
-    flex-direction: column; 
-    margin: 20px;
-}
-.imatge{
+body{
     display: flex;
-    flex-direction: column;
+    justify-content: center;
+    margin: 0;
+    padding: 0;
+    width: 100%;
+}
+main {
+    max-width: 1200px;
+    width: 100%;
+    margin: 0 auto;          
+    padding: 0 40px;         
+}
+.imatge img{
+    width: 1200px;
+    height: auto;
+}
+.menu{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 30px;
+    margin-bottom: 50px;
+}
+.menu button{
+    background-color: #212121;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+.menu button:hover{
+    background-color: #424242;
 }
