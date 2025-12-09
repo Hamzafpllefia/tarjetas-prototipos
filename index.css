@@ -12,8 +12,10 @@ header{
     padding: 1rem;
 }
 main{
-    margin-left: 500px;
-    margin-right: 500px;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 20px;
+    justify-content: center;
 }
 .gallery{
     display: grid;
@@ -34,7 +36,7 @@ main{
     border: 2px solid #ccc;
     border-radius: 10px;
     object-fit: contain;
-    padding: 10px;
+    padding: 30px;
 }
 footer{
     text-align: center;

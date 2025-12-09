@@ -1,0 +1,39 @@
+h1{
+    font-family: AvenirBlack, sans-serif;
+    font-size: 48px;
+}
+
+p{
+    font-family: AvenirLight, sans-serif;
+    font-size: 20px;
+    line-height: 1.5;
+    color: rgb(82, 81, 81);
+}
+
+button.button{
+    background-color: #212121;
+    color: white;
+    border: none;
+    padding: 15px 30px;
+    font-size: 16px;
+    border-radius: 10px;
+    cursor: pointer;
+    margin-top: 20px;
+}
+
+button.button:hover{
+    background-color: #424242;
+}
+
+main{
+    display: flex;
+}
+.titulo, .contingut{
+    display: flex ;
+    flex-direction: column; 
+    margin: 20px;
+}
+.imatge{
+    display: flex;
+    flex-direction: column;
+}
