@@ -48,12 +48,16 @@ body{
     margin: 0;
     padding: 0;
     width: 100%;
+    background-color: #212121;
 }
 main {
     max-width: 1200px;
     width: 100%;
     margin: 0 auto;          
-    padding: 0 40px;         
+    padding: 0 40px;  
+    background-color: white;  
+    margin-bottom: 50px;     
+    margin-top: 50px;
 }
 .imatge img{
     width: 1200px;

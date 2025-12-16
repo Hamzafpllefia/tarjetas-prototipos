@@ -13,6 +13,9 @@
 body{
     margin-left: 500px;
     margin-right: 500px;
+    background-color: #212121;
+    display: flex;
+    justify-content: center;
 }
 h1{
     font-family: 'AvenirBlack', Arial, sans-serif;
@@ -71,4 +74,9 @@ p{
     color: white;
     cursor: pointer;
     font-family: 'AvenirBook', Arial, sans-serif;
+}
+.TODO{
+    background-color: white;
+    width: 1700px;
+    padding: 50px;
 }

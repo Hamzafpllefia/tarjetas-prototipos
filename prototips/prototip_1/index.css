@@ -16,10 +16,13 @@ h1{
     font-weight: 100;
 }
 body{
+    display: flex;
+    justify-content: center;
     text-align: center;
     margin:0;
     font-family: Arial, sans-serif;
     margin-bottom: 100px;
+    background-color: #212121;
 }
 p{
     font-family: 'AvenirBook', Arial, sans-serif;
@@ -68,3 +71,8 @@ button:hover{
     font-family: 'AvenirBook', Arial, sans-serif;
     
 }
+main{
+    background-color: white;
+    width: 1700px
+}
+
