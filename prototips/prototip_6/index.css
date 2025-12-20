@@ -80,3 +80,74 @@ body {
 .icons p{
     font-size: 1.2rem;
 }
+
+.right{
+    position: relative;
+}
+.reloj{
+    position: relative;
+    z-index: 3;
+}
+.rombogrande{
+    position: absolute;
+    z-index: 4;
+    top: 500px;
+    left: 380px;
+}
+.rombo2{
+    position: absolute;
+    z-index: 5;
+    top: 60px;
+    left: 20px;
+}
+.cuadradopequeño{
+    position: absolute;
+    z-index: 0;
+    top: 280px;
+    left: 300px;
+}
+.cuadradogrande{
+    position: absolute;
+    z-index: 1;
+    top: -70px;
+    left: -70px;
+}
+.estrellablanca{
+    position: absolute;
+    z-index: 2;
+    top: -150px;
+    left: -155px;
+}
+.textoarriba{
+    position: absolute;
+    z-index: 6;
+    top: 50px;
+    left: 250px;
+}
+.textoabajo{
+    position: absolute;
+    z-index: 7;
+    top: 550px;
+    left: -100px;
+}
+.menu{
+    bottom: 0;
+    left: 0;
+    right: 0;
+    display: flex;
+    justify-content: space-between;
+    padding: 40px;
+}
+.menu button{
+    border: none;
+    padding: 20px 30px;
+    border-radius: 10px;
+    background-color: #212121;
+    color: white;
+    cursor: pointer;
+    font-family: 'AvenirBook', Arial, sans-serif;
+    
+}
+.menu button:hover{
+    background-color: #424242;
+}
