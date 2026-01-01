@@ -1,0 +1,38 @@
+@font-face {
+    font-family: 'AvenirBlack'; /* Nombre que vas a usar */
+    src: url('../../tipografia/Avenir-Black.ttf') format('truetype'); /* Ruta al archivo */
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: AvenirBook;
+    src: url(../../tipografia/Avenir-Book.ttf) format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+h1{
+    font-family: 'AvenirBlack';
+    font-size: 3rem;
+}
+p{
+    font-family: AvenirBook;
+    font-size: 1rem;
+    color: rgb(46, 46, 46);
+}
+h2{
+    font-family: 'AvenirBlack';
+    color: rgba(180, 173, 173, 0.784);
+    font-size: 2rem;
+}
+section{
+    display: flex;
+}
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+div{
+    margin-right: 10px;
+}

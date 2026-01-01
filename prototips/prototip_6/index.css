@@ -75,7 +75,8 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
-    height: 100vh;
+    flex-direction: column;
+    margin-top: 70px;
 }
 .icons p{
     font-size: 1.2rem;
@@ -151,3 +152,10 @@ body {
 .menu button:hover{
     background-color: #424242;
 }
+.main{
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
