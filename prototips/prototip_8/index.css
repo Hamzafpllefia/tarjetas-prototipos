@@ -1,0 +1,68 @@
+@font-face {
+    font-family: 'AvenirBlack'; /* Nombre que vas a usar */
+    src: url('../../tipografia/Avenir-Black.ttf') format('truetype'); /* Ruta al archivo */
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: AvenirBook;
+    src: url(../../tipografia/Avenir-Book.ttf) format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+main{
+    display: flex;
+    justify-content: center;
+    background-color: #9C2004;
+}
+button{
+    font-family: AvenirBook ;
+    background-color: #E5B94B;
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+    border-radius: 12px;
+}
+button:hover{
+    background-color: #C17A00;
+}
+h1{
+    font-family: 'AvenirBlack';
+    font-size: 3rem;
+    color: white;
+}
+p{
+    font-family: AvenirBook;
+    font-size: 1rem;
+    color: rgba(255, 255, 255, 0.584);
+}
+.left{
+    margin-right: 150px;
+}
+.menu{
+    bottom: 0;
+    left: 0;
+    right: 0;
+    display: flex;
+    justify-content: space-between;
+    padding: 40px;
+}
+.menu button{
+    border: none;
+    padding: 20px 30px;
+    border-radius: 10px;
+    background-color: #212121;
+    color: white;
+    cursor: pointer;
+    font-family: 'AvenirBook', Arial, sans-serif;
+    
+}
+.menu button:hover{
+    background-color: #424242;
+}
