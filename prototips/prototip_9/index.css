@@ -1,0 +1,12 @@
+@font-face {
+    font-family: 'AvenirBlack'; /* Nombre que vas a usar */
+    src: url('../../tipografia/Avenir-Black.ttf') format('truetype'); /* Ruta al archivo */
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: AvenirBook;
+    src: url(../../tipografia/Avenir-Book.ttf) format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
