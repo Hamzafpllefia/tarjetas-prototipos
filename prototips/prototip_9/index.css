@@ -10,3 +10,66 @@
     font-weight: normal;
     font-style: normal;
 }
+body{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+h1{
+    font-family: 'AvenirBlack', sans-serif;
+    font-size: 1rem;
+    color: #363830;
+}
+h2{
+    font-family: 'AvenirBlack', sans-serif;
+    font-size: 1rem;
+    color: #363830;
+}
+p{
+    font-family: 'AvenirBook', sans-serif;
+    font-size: 1rem;
+    max-width: 1200px;
+}
+button{
+    font-family: 'AvenirBook', sans-serif;
+    font-size: 1rem;
+    padding: 30px 40px;
+    background-color: #363830;
+    color: white;
+    border: none;
+    border-radius: 50px;
+    cursor: pointer;
+    width: fit-content;
+    width: 290px;
+}
+button:hover{
+    background-color: #555653;
+}
+.contingut{
+    position: relative;
+    z-index: 4;
+}
+.espejo{
+    position: absolute;
+    z-index: 1;
+    left: 1600px;
+    top: 0;
+}
+.planta{
+    position: absolute;
+    z-index: 1;
+    left: 900px;
+    top: 600px;
+}
+.grup{
+    display: flex;
+    gap: 40px;
+    background-color: rgba(0, 0, 0, 0.447);
+    border-radius: 50px;
+    width: 2000px
+}
+hr{
+    border: 1px solid #363830;
+    border-top: 2px solid #363830;
+    width: 50px;
+}
