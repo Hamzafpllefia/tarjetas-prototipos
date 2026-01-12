@@ -14,6 +14,9 @@
     display: flex;
     justify-content: center;
     align-items: center;
+    width: 1440px;
+    height: 999px;
+    background-color: white;
 }
 
 .contingut {
@@ -21,25 +24,26 @@
 }
 h1{
     font-family: AvenirBlack, Arial, sans-serif;
-    font-size: 3.5rem;
+    font-size: 64px;
 }
 h2{
     font-family: AvenirBook, Arial, sans-serif;
+    font-size: 32px;
     color: rgb(56, 56, 56);
 }
 p{
     font-family: AvenirBook, Arial, sans-serif;
     color: rgb(75, 74, 74);
-    font-size: 1.5rem;
+    font-size: 24px;
 }
 button{
     background-color: #212121;
     color: white;
-    border: none;
+    border: 1px solid white;
     padding: 10px 20px;
     width: 150px;
     border-radius: 10px;
-    font-size: 1rem;
+    font-size: 18px;
     cursor: pointer;
     transition: 0.35s;
     font-family: AvenirBook, Arial, sans-serif;
@@ -51,15 +55,11 @@ button:hover{
     margin-top: 30px;
 }
 .numero{
-    margin-top: 150px;
+    margin-top: 80px;
 }
-.menu {
+body{
+    background-color: #212121;
+    margin: 0;
     display: flex;
-    justify-content: space-between;
-    align-items: center;
-    width: 100%;          
-    max-width: 1200px;    
-    margin: 40px auto;    
-    padding: 0 40px;      
-}
+    justify-content: center;
 }

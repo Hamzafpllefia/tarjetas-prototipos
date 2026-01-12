@@ -11,19 +11,18 @@
     font-style: normal;
 }
 body{
-    margin-left: 500px;
-    margin-right: 500px;
     background-color: #212121;
     display: flex;
     justify-content: center;
 }
 h1{
     font-family: 'AvenirBlack', Arial, sans-serif;
-    font-size: 2rem;
+    font-size: 56px;
     font-weight: 100;
 }
 p{
     font-family: 'AvenirBook', Arial, sans-serif;
+    font-size: 26px;
 }
 .principal{
     display: flex;
@@ -35,9 +34,10 @@ p{
     color: white;
     border: none;
     padding: 10px 20px;
-    width: 130px;
+    width: 150px;
+    height: 50px;
     border-radius: 10px;
-    font-size: 1rem;
+    font-size: 18px;
     cursor: pointer;
     transition: 0.35s;
     font-family: 'AvenirBook', Arial, sans-serif;
@@ -55,28 +55,17 @@ p{
 .llista-de-fotografies{
     font-family: AvenirBlack, Arial, sans-serif;
     font-weight: bold;
-    font-size: 20px;
+    font-size: 40px;
     color: rgba(173, 173, 173, 0.767);
-    display: grid;
-    grid-template-columns: repeat(3, 1fr);
-    gap: 10px;
-}
-.menu{
     display: flex;
-    justify-content: space-between;
-    padding: 50px;
-}
-.menu button{
-    border: none;
-    padding: 20px 30px;
-    border-radius: 5px;
-    background-color: #212121;
-    color: white;
-    cursor: pointer;
-    font-family: 'AvenirBook', Arial, sans-serif;
+    gap: 50px;
 }
 .TODO{
     background-color: white;
-    width: 1700px;
-    padding: 50px;
+    width: 1440px;
+    height: 1272px;
+}
+.container{
+    padding-left: 64px;
+    padding-right: 64px;
 }

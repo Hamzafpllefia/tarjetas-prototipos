@@ -13,27 +13,27 @@
 body {
     margin: 0;
     padding: 0;
+    background-color: #212121;
 }
 
 main {
     display: flex;
     justify-content: center;
-}
-
-.contenido {
-    max-width: 1200px;      
-    width: auto;             
+    background-color: white;
 }
 
 .titulo h1 {
     text-align: left;
     margin: 0;
     font-family: AvenirBlack;
-    font-size: 4rem;
+    font-size: 88px;
     margin-bottom: 50px;
     margin-top: 50px;
 }
-
+.contenido{
+    width: 1440px;
+    height: 954px;
+}
 .container {
     display: flex;
     gap: 50px;
@@ -42,13 +42,13 @@ main {
 h2{
     font-family: AvenirBook;
     color: rgb(88, 88, 88);
-    font-size: 1.5rem;
+    font-size: 32px;
 }
 
 p{
     font-family: AvenirBook;
     color:rgb(83, 83, 83);
-    font-size: 1.3rem;
+    font-size: 24px;
 }
 button{
     color: white;
@@ -62,13 +62,4 @@ button{
 }
 button:hover{
     background-color: #424242;
-}
-.menu {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    width: 100%;          
-    max-width: 1200px;    
-    margin: 40px auto;    
-    padding: 0 40px;      
 }
