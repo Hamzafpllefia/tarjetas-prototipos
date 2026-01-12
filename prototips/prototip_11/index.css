@@ -1,0 +1,55 @@
+@font-face {
+    font-family: 'AvenirBlack';
+    src: url('../../tipografia/Avenir-Black.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: AvenirBook;
+    src: url(../../tipografia/Avenir-Book.ttf) format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+body{
+    background-color: #212121;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+h1{
+    font-family: 'AvenirBlack';
+    font-size: 80px;
+}
+p{
+    font-family: AvenirBook;
+    font-size: 24px;
+    color: rgb(46, 46, 46);
+}
+button{
+    font-family: 'AvenirBook', Arial, sans-serif;
+    background-color: #212121;
+    color: white;
+    border: none;
+    padding: 15px 30px;
+    border-radius: 20px;
+    cursor: pointer;
+    transition: 0.35s;
+    font-size: 18px;
+}
+button:hover{
+    background-color: #424242;
+}
+main{
+    width: 1440px;
+    height: 1024px;
+    background-image: url('imatges/persona.png');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    color: black;
+}
