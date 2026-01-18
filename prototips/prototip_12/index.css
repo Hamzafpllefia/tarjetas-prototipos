@@ -1,0 +1,111 @@
+@font-face {
+    font-family: 'AvenirBlack';
+    src: url('../../tipografia/Avenir-Black.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: AvenirBook;
+    src: url(../../tipografia/Avenir-Book.ttf) format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+body{
+    display: flex;
+    justify-content: center;
+    background-color: #212121;
+}
+
+main{
+    width: 1440px;
+    height: 1024px;
+    background-color: #ffffff;
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-end;       
+}
+
+
+h1{
+    font-family: AvenirBlack;
+    font-size: 72px;
+}
+
+p{
+    font-family: AvenirBook;
+    font-size: 24px;
+    color: rgb(46, 46, 46);
+}
+button{
+    font-family: AvenirBook;
+    font-size: 24px;
+    padding: 15px 30px;
+    background-color: #252525;
+    color: white;
+    border: none;
+    border-radius: 36px;
+    cursor: pointer;
+    width: 182px;
+    height: 66px;
+}
+button:hover{
+    background-color: #3d3d3d;
+}
+.left{
+    position: absolute;
+    top: 20px;
+    left: 470px;
+}
+
+.right{
+    position: absolute;
+    bottom: 100px;
+    right: 520px;
+}
+
+.lila-naranja{
+    position: absolute;
+    z-index: 0;
+    left: 800px;
+    bottom: 90px;
+}
+.tuberias-lila{
+    position: absolute;
+    z-index: 0;
+    left: 1150px;
+    bottom: 400px;
+}
+.cuches-azules{
+    position: absolute;
+    z-index: 0;
+    left: 1490px;
+    bottom: 600px;
+}
+.espiral{
+    position: absolute;
+    left: 550px;
+    bottom: 120px;
+}
+.asterisco{
+    position: absolute;
+    z-index: 1;
+    left: 1030px;
+    bottom: 450px;
+}
+.olas{
+    position: absolute;
+    left: 950px;
+    bottom: 850px;
+}
+.asterisco2{
+    position: absolute;
+    z-index: 1;
+    left: 1510px;
+    bottom: 290px;
+}
+.togheter{
+    display: flex;
+    align-items: center;
+    justify-content: end;
+    gap: 24px;
+}
